@@ -1,3 +1,6 @@
+* ~i{
+    font-family: 'Inter', sans-serif !important;
+}
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -117,6 +120,7 @@
 }
 
 @media (min-width: 992px) {
+
     .container-fluid::before {
         content: "";
         position: absolute;
@@ -130,6 +134,15 @@
 }
 
 @media (max-width: 991px) {
+    .responsive-flex-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+    }
+    .responsive-block-center{
+        display: block;
+    }
     .container-fluid {
         border: none;
     }
