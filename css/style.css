@@ -116,7 +116,7 @@
 
 .container-fluid {
     position: relative;
-    border-bottom: 1px solid rgba(0, 0, 0, .08);
+    /* border-bottom: 1px solid rgba(0, 0, 0, .08); */
 }
 
 @media (min-width: 992px) {
@@ -278,7 +278,7 @@
 .education-content .education-item:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
 }
-
+/* 
 .education-content .education-item::after {
     content: "";
     position: absolute;
@@ -291,8 +291,8 @@
     border: 100px solid;
     border-color: var(--bs-light) transparent var(--bs-light) var(--bs-light);
     z-index: -1;
-}
-
+} */
+/* 
 .education-content .education-item::before {
     content: "";
     position: absolute;
@@ -304,7 +304,7 @@
     border: 100px solid;
     border-color: var(--bs-light) var(--bs-light) var(--bs-light) transparent;
     z-index: -1;
-}
+} */
 
 /*** Education End ***/
 
@@ -321,7 +321,7 @@
 .experience-content .experience-item:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
 }
-
+/* 
 .experience-content .experience-item::after {
     content: "";
     position: absolute;
@@ -348,7 +348,7 @@
     border: 100px solid;
     border-color: var(--bs-light) var(--bs-light) var(--bs-light) transparent;
     z-index: -1;
-}
+} */
 
 /*** Experience End ***/
 
@@ -375,12 +375,14 @@
 
 /*** Service start ***/
 .service-content .service-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .03);
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, .03); */
+    box-shadow: 0px 0px 10px #9BE13F;
     transition: 0.5s;
 }
 
 .service-content .service-item:hover i {
-    color: var(--bs-primary);
+    /* color: var(--bs-primary); */
+    color: #9BE13F;
 
 }
 
@@ -612,3 +614,7 @@
 }
 
 /***sticky footer End ***/
+
+.hr-bottom{
+    z-index: 10000;
+}
